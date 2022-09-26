@@ -1,61 +1,22 @@
 .App {
   width:100vw;
-  height:max-content;
-  position: fixed;
   min-height: 100vh;
+  height: max-content;
+  position: relative;
   display: flex;
   flex-grow: 1;
   z-index: 1;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  background: linear-gradient(320deg, rgba(52,88,143,1) 0%, rgb(3, 10, 22) 85%);
-  &::after{
-    z-index: -1;
+  &:after{
     position: absolute;
-    top: 0%;
-    left: 50%;
-    width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 50%;
+    width:100%;
+    height:100%;
     content: '';
-    background: radial-gradient(circle, rgba(12,25,80,0.6096813725490196) 0%, rgba(44,9,121,0.7469362745098039) 35%, rgba(88,150,251,0.788953081232493) 100%); 
-    animation: rotateFrst 120s linear infinite;
-    @keyframes rotateFrst {
-      from{
-        transform: translateX(0rem);
-      }
-      to{
-        transform: translateX(12rem);
-      }
-      
-    }
+    z-index: -1;
+    background: linear-gradient(320deg, rgba(52,88,143,0.4) 0%, rgb(3, 10, 22,1) 85%);
   }
-    &::before{
-        z-index: -1;
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        width: 50%;
-        aspect-ratio: 1/1;
-        border: 1px solid transparent;
-        border-left: #60ffca solid 1px;
-        border-radius: 50%;
-        content: '';
-        background: radial-gradient(circle, rgba(12,25,80,0.6096813725490196) 0%, rgba(31, 58, 53, 0.1) 61%, rgba(88, 251, 205, 0.1) 100%); 
-        animation: rotateSec 240s linear infinite;
-        @keyframes rotateSec {
-          from{
-            transform: translateX(0rem) rotate(0deg);
-          }
-          50%{
-            transform: translateX(-30rem) rotate(360deg);
-          }
-          to{
-            transform: translateX(0rem) rotate(0deg);
-          }
-          
-        }
-      }
+  
 }
 
