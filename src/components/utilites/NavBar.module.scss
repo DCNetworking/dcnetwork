@@ -1,0 +1,51 @@
+.navContainer{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height:10%;
+    min-height: 4rem;
+    border-bottom: 2px solid rgb(82, 255, 165);
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    align-items: center;
+
+}
+
+.navTitle{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: auto;
+    position: relative;
+    color:white;
+    font-weight: 800;
+    font-size: 1.9rem;
+    .accent{
+        font-size: 2.2rem;
+        color: #00faa7;
+    }
+    &::after{
+        position: absolute;
+        width: 95%;
+        top:0;
+        left:5px;
+        height: 70%;
+        border-bottom: 1px solid #00faa7;
+        content: '';
+    }
+    .sloganTitle{
+        font-size: 0.7rem; 
+        p{
+            margin: 0 0;
+        }
+    }
+
+}
+
+.navItems{
+    width:95%;
+    height:95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
