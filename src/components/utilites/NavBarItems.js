@@ -9,19 +9,19 @@ export const NavBarItems = [
         icon: <AiOutlineHome />
     }, {
         id: 2,
-        name: 'Search',
-        url: '/search',
-        icon: <AiOutlineSearch />
-    }, {
-        id: 3,
         name: 'Random Shot',
         url: '/randomize',
         icon: <FaRandom />
     }, {
-        id: 4,
+        id: 3,
         name: 'Contact',
         url: '/contact',
         icon: <AiOutlineContacts />
+    }, {
+        id: 4,
+        name: 'Search',
+        url: '/search',
+        icon: <AiOutlineSearch />
     }
 
 ]
