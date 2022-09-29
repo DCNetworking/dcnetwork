@@ -11,6 +11,11 @@
     align-items: center;
 
 }
+.accent{
+    font-size: 2.2rem;
+    color: #00faa7;
+}
+
 .navTitle{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-right: auto;
@@ -18,10 +23,7 @@
     color:white;
     font-weight: 800;
     font-size: 1.9rem;
-    .accent{
-        font-size: 2.2rem;
-        color: #00faa7;
-    }
+
     &::after{
         position: absolute;
         width: 100%;

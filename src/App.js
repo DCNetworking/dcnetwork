@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App" style={{
       backgroundImage: `url(${process.env.PUBLIC_URL}/backgroundMain.jpg)`,
-      backgroundSize: 'contain',
+      backgroundSize: 'cover',
       backgroundBlendMode: 'darken'
     }}>
       <NavBar />

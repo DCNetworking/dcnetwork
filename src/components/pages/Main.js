@@ -21,13 +21,13 @@ function Main(props) {
     return (
         <div className={styles.mainContainer}>
             <div className={styles.leftContainer}>
-                <div className={styles.Bubble}></div>
+                <span className={styles.accent}>DCnetwork</span>
             </div>
             <div className={styles.rightContainer}>
-                <div className={styles.titlePage}>Welcome to <span className={styles.accent}>DC</span>Network</div>
+                <div className={styles.titlePage}><span className={styles.accent}>DC</span>Network</div>
                 <div className={styles.contentPage}>{quote}</div>
             </div>
-        </div>
+        </div >
     )
 
 

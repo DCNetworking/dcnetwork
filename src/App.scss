@@ -3,6 +3,7 @@
   min-height: 100vh;
   height: max-content;
   position: relative;
+  overflow: hidden;
   display: flex;
   flex-grow: 1;
   z-index: 1;
@@ -15,7 +16,7 @@
     height:100%;
     content: '';
     z-index: -1;
-    background: linear-gradient(320deg, rgba(52,88,143,0.4) 0%, rgb(3, 10, 22,1) 85%);
+    background: linear-gradient(320deg, rgba(69, 19, 107, 0.843) 0%, rgba(14, 68, 116, 0.436) 85%);
   }
   
 }
